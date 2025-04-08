@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "D:\\Workspace\\DoAnTotNghiep\\express-ts\\src\\logs\\debug\\.509e51f9d4a0966dc78bbf9497493ed53789dae7-audit.json",
+    "files": [
+        {
+            "date": 1744086940312,
+            "name": "D:\\Workspace\\DoAnTotNghiep\\express-ts\\src\\logs\\debug\\2025-04-08.log",
+            "hash": "373598b44199f4d52fed3f2e7aecdf01655e2d5d295fc3c442690f704a295ce2"
+        }
+    ],
+    "hashType": "sha256"
+}

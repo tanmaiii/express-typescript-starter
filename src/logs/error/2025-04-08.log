@@ -1,0 +1,30 @@
+2025-04-08 11:35:40 error: uncaughtException: Access denied for user 'root'@'localhost' (using password: YES)
+SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\Workspace\DoAnTotNghiep\express-ts\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\Workspace\DoAnTotNghiep\express-ts\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\Workspace\DoAnTotNghiep\express-ts\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2025-04-08 11:35:40 error: uncaughtException: Access denied for user 'root'@'localhost' (using password: YES)
+SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\Workspace\DoAnTotNghiep\express-ts\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\Workspace\DoAnTotNghiep\express-ts\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\Workspace\DoAnTotNghiep\express-ts\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2025-04-08 11:36:33 error: uncaughtException: Access denied for user 'root'@'localhost' (using password: YES)
+SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\Workspace\DoAnTotNghiep\express-ts\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\Workspace\DoAnTotNghiep\express-ts\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\Workspace\DoAnTotNghiep\express-ts\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2025-04-08 11:36:33 error: uncaughtException: Access denied for user 'root'@'localhost' (using password: YES)
+SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: YES)
+    at ConnectionManager.connect (D:\Workspace\DoAnTotNghiep\express-ts\node_modules\sequelize\src\dialects\mysql\connection-manager.js:118:17)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ConnectionManager._connect (D:\Workspace\DoAnTotNghiep\express-ts\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:24)
+    at async D:\Workspace\DoAnTotNghiep\express-ts\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+2025-04-08 11:42:41 error: [POST] /signup >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2025-04-08 11:43:14 error: [POST] /login >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2025-04-08 11:43:23 error: [POST] /login >> StatusCode:: 409, Message:: Password not matching
+2025-04-08 11:44:44 error: [POST] /users >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2025-04-08 11:44:46 error: [PUT] /users/1 >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2025-04-08 11:44:48 error: [PUT] /users/1 >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters

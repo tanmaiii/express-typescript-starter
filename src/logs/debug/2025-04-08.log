@@ -1,0 +1,45 @@
+2025-04-08 11:35:40 info: =================================
+2025-04-08 11:35:40 info: ======= ENV: development =======
+2025-04-08 11:35:40 info: 🚀 App listening on the port 3000
+2025-04-08 11:35:40 info: =================================
+2025-04-08 11:36:33 info: =================================
+2025-04-08 11:36:33 info: ======= ENV: development =======
+2025-04-08 11:36:33 info: 🚀 App listening on the port 3000
+2025-04-08 11:36:33 info: =================================
+2025-04-08 11:39:28 info: =================================
+2025-04-08 11:39:28 info: ======= ENV: development =======
+2025-04-08 11:39:28 info: 🚀 App listening on the port 3000
+2025-04-08 11:39:28 info: =================================
+2025-04-08 11:39:28 info: 1ms Executed (default): SELECT 1+1 AS result
+2025-04-08 11:39:28 info: 13ms Executed (default): SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABLE_NAME = 'users' AND TABLE_SCHEMA = 'dev'
+2025-04-08 11:39:28 info: 26ms Executed (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER auto_increment , `email` VARCHAR(45) NOT NULL, `password` VARCHAR(255) NOT NULL, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, PRIMARY KEY (`id`)) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE utf8mb4_general_ci;
+2025-04-08 11:39:28 info: 5ms Executed (default): SHOW INDEX FROM `users`
+2025-04-08 11:42:41 error: [POST] /signup >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2025-04-08 11:42:41 info: [0mPOST /signup [33m400[0m 24.737 ms - 67[0m
+2025-04-08 11:43:02 info: 2ms Executed (default): SELECT `id`, `email`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`email` = 'example@email.com' LIMIT 1;
+2025-04-08 11:43:02 info: 9ms Executed (default): INSERT INTO `users` (`id`,`email`,`password`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?); "example@email.com", "$2b$10$xzLlIz5nn4dmHelCpszHtOJ5WqclNvbGJVq6wZbzWVqrg0KZ/Ic8G", "2025-04-08 13:43:02", "2025-04-08 13:43:02"
+2025-04-08 11:43:02 info: [0mPOST /signup [32m201[0m 128.879 ms - 216[0m
+2025-04-08 11:43:14 error: [POST] /login >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2025-04-08 11:43:14 info: [0mPOST /login [33m400[0m 4.230 ms - 67[0m
+2025-04-08 11:43:22 info: 2ms Executed (default): SELECT `id`, `email`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`email` = 'example@email.com' LIMIT 1;
+2025-04-08 11:43:23 error: [POST] /login >> StatusCode:: 409, Message:: Password not matching
+2025-04-08 11:43:23 info: [0mPOST /login [33m409[0m 113.628 ms - 35[0m
+2025-04-08 11:43:31 info: 1ms Executed (default): SELECT `id`, `email`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`email` = 'example@email.com' LIMIT 1;
+2025-04-08 11:43:31 info: [0mPOST /login [32m200[0m 80.885 ms - 215[0m
+2025-04-08 11:44:32 info: 1ms Executed (default): SELECT `id`, `email`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel`;
+2025-04-08 11:44:32 info: [0mGET /users [32m200[0m 7.335 ms - 219[0m
+2025-04-08 11:44:36 info: 1ms Executed (default): SELECT `id`, `email`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel`;
+2025-04-08 11:44:36 info: [0mGET /users [32m200[0m 3.173 ms - 219[0m
+2025-04-08 11:44:40 info: 1ms Executed (default): SELECT `id`, `email`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`id` = 1;
+2025-04-08 11:44:40 info: [0mGET /users/1 [32m200[0m 5.699 ms - 217[0m
+2025-04-08 11:44:44 error: [POST] /users >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2025-04-08 11:44:44 info: [0mPOST /users [33m400[0m 4.825 ms - 67[0m
+2025-04-08 11:44:46 error: [PUT] /users/1 >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2025-04-08 11:44:46 info: [0mPUT /users/1 [33m400[0m 4.911 ms - 67[0m
+2025-04-08 11:44:48 error: [PUT] /users/1 >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2025-04-08 11:44:48 info: [0mPUT /users/1 [33m400[0m 2.470 ms - 67[0m
+2025-04-08 11:44:53 info: 1ms Executed (default): SELECT `id`, `email`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel` WHERE `UserModel`.`id` = 1;
+2025-04-08 11:44:53 info: 13ms Executed (default): DELETE FROM `users` WHERE `id` = 1
+2025-04-08 11:44:53 info: [0mDELETE /users/1 [32m200[0m 28.056 ms - 217[0m
+2025-04-08 11:44:58 info: 0ms Executed (default): SELECT `id`, `email`, `password`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `UserModel`;
+2025-04-08 11:44:58 info: [0mGET /users [32m200[0m 2.506 ms - 31[0m
