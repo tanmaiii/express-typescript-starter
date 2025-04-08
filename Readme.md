@@ -10,7 +10,7 @@
 1. **Clone repository**:
 
 ```bash
-git clone https://github.com/your-repo/express-ts-starter.git
+git clone https://github.com/tanmaiii/express-typescript-starter
 cd express-ts-starter
 ```
 
